@@ -1,12 +1,7 @@
 import { Inter } from 'next/font/google'
-import './globals.css'
-import '../public/css/style.css'
-import '../public/css/slick.min.css'
-import '../public/css/magnific-popup.min.css'
-import '../public/css/fontawesome.min.css'
-import '../public/css/bootstrap.min.css'
-import MainHeader from './components/MainHeader'
-import MainFooter from './components/MainFooter'
+
+
+
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,10 +13,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet"/>
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/fontawesome.min.css"/>
+        <link rel="stylesheet" href="css/magnific-popup.min.css"/>
+        <link rel="stylesheet" href="css/slick.min.css"/>
+        <link rel="stylesheet" href="css/style.css"/>
+      </head>
+      
       <body>
-        <MainHeader/>
         {children}
-        <MainFooter/>
       </body>
     </html>
   )
