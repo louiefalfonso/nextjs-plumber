@@ -1,0 +1,122 @@
+/* Blog Card ---------------------------------- */
+.blog-img {
+    position: relative;
+    .blog-date {
+        position: absolute;
+        top: -4px;
+        left: -4px;
+        background-color: $theme-color;
+        color: $white-color;
+        font-weight: 500;
+        text-align: center;
+        height: 70px;
+        width: 70px;
+        border: 4px solid $white-color;
+        text-transform: uppercase;
+        padding: 6px;
+        &::first-line {
+            display: block;
+            font-size: 24px;
+            font-weight: 700;
+        }
+    }
+}
+.blog-card {
+    box-shadow: 0px 0px 15px rgba(229, 229, 229, 0.5);
+    padding: 30px;
+    background-color: $white-color;
+    .box-title {
+        margin-bottom: 22px;
+        a {
+            background-image: linear-gradient(to left, $theme-color, $theme-color);
+            background-repeat: no-repeat;
+            background-position: bottom left;
+            background-size: 0 2px;
+            transition: 0.5s ease-in-out;
+            &:hover {
+                background-size: 100% 2px;
+            }
+        }
+    }
+    .blog-img {
+        overflow: hidden;
+        img {
+            width: 100%;
+            transition: 0.4s ease-in-out;
+        }
+    }
+    .blog-meta {
+        margin: 18px 0 18px 0;
+        span, 
+        a {
+            > i {
+                color: $theme-color;
+            }
+        }
+    }
+    .themeholy-btn {
+        padding: 17px 20px;
+        min-width: 148px;
+    }
+    &.style2 {
+        .blog-img {
+            margin: -30px -30px 22px -30px;
+            .blog-date {
+                top: 26px;
+                left: 26px;
+            }
+        }
+    }
+    &:hover {
+        .blog-img {
+            img {
+                transform: scale(1.08);
+            }
+        }
+    }
+}
+
+.line-bg {
+    background: repeating-linear-gradient(45deg, $smoke-color 0%, rgba(239, 239, 239, 0.05) 180px, $border-color 181px);
+}
+
+@include md {
+    .blog-card {
+        .box-title {
+            font-size: 22px;
+        }
+    }
+}
+
+@include sm {
+    .blog-card {
+        .box-title {
+            font-size: 24px;
+        }
+    }
+}
+@media (max-width: 410px) {
+    .blog-card {
+        .box-title {
+            font-size: 22px;
+        }
+    }
+}
+
+@media (max-width: 350px) {
+    .blog-card {
+        padding: 20px;
+        .box-title {
+            font-size: 20px;
+        }
+        &.style2 {
+            .blog-img {
+                margin: -20px -20px 18px -20px;
+                .blog-date {
+                    top: 16px;
+                    left: 16px;
+                }
+            }
+        }
+    }
+}

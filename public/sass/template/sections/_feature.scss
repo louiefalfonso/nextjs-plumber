@@ -1,0 +1,160 @@
+/* Feature Card ---------------------------------- */ 
+.feature-card {
+    border: 1px solid $border-color;
+    padding: 0 40px 40px 40px;
+    background-color: $white-color;
+    margin-right: -1px;
+    margin-top: 40px;
+    &_icon {
+        width: 80px;
+        height: 80px;
+        line-height: 75px;
+        text-align: center;
+        border: 1px solid $border-color;
+        background-color: inherit;
+        border-radius: 99px;
+        margin: -40px 0 30px 0;
+    }
+    .box-title {
+        font-size: 30px;
+        font-weight: 600;
+    }
+    &_text {
+        margin: 0 0 -0.5em 0;
+    }
+}
+
+@include xl {
+    .feature-card .box-title {
+        font-size: 28px;
+    }
+}
+
+@include lg {
+    .feature-card {
+        padding: 0 30px 30px 30px;
+        .box-title {
+            font-size: 24px;
+        }
+    }
+}
+
+@include md {
+    .feature-card {
+        text-align: center;
+        &_icon {
+            margin: -40px auto 30px auto;
+        }
+        .box-title {
+            font-size: 28px;
+        }
+    }
+}
+
+@include xs {
+    .feature-card {
+        padding: 0 15px 40px 15px;
+    }
+}
+
+@include vxs {
+    .feature-card {
+        .box-title {
+            font-size: 24px;
+        }
+    }
+}
+
+/* Feature Box ---------------------------------- */
+.feature-box {
+    padding: 0 15px 30px 15px;
+    background-color: $white-color;
+    box-shadow: 0px 6px 15px rgba(192, 192, 192, 0.15);
+    overflow: hidden;
+    text-align: center;
+    &_icon {
+        --icon-size: 120px;
+        width: var(--icon-size);
+        height: var(--icon-size);
+        line-height: 170px;
+        text-align: center;
+        background-color: $smoke-color2;
+        border-radius: 199px;
+        margin: calc(var(--icon-size) * -0.5) auto 25px auto;
+        position: relative;
+        z-index: 2;
+        img {
+            transition: 0.4s ease-in-out;
+        }
+        &:before,
+        &:after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background-color: $smoke-color2;
+            border-radius: inherit;
+            z-index: -1;
+            transition: 0.4s ease-in-out;
+        }
+        .shape1 {
+            position: absolute;
+            inset: 0;
+            border-radius: inherit;
+            &:before,
+            &:after {
+                content: '';
+                position: absolute;
+                inset: 0;
+                background-color: $theme-color;
+                border-radius: inherit;
+                transition: 0.4s ease-in-out;
+            }
+        }
+        .shape1 {
+            z-index: -2;
+            &:before {
+                transform: translateX(-8px);
+            }
+            &:after {
+                transform: translateX(8px);
+            }
+        }
+    }
+    .box-title {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    &_text {
+        font-size: 14px;
+        max-width: 225px;
+        margin: 0 auto -0.55em auto;
+    }
+    &:hover {
+        .feature-box {
+            &_icon {
+                img {
+                    filter: brightness(0) invert(1);
+                }
+                &:before,
+                &:after {
+                    z-index: -2;
+                }
+                &:before {
+                    transform: translateX(-8px);
+                }
+                &:after {
+                    transform: translateX(8px);
+                }
+                .shape1 {
+                    z-index: -1;
+                    &:before {
+                        transform: translateX(0);
+                    }
+                    &:after {
+                        transform: translateX(0);
+                    }
+                }
+            }
+        }
+    }
+}

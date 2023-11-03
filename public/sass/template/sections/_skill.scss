@@ -1,0 +1,42 @@
+.skill-feature {
+    &:not(:last-child) {
+        margin-bottom: 30px;
+    }
+    &_title,
+    .progress-value {
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 10px;
+        margin-top: -0.2em;
+        font-family: $title-font;
+        color: $title-color;
+    }
+    .progress {
+        position: relative;
+        height: 8px;
+        background-color: $white-color;
+        border: 1px solid $border-color;
+        overflow: visible;
+        border-radius: 0;
+    }
+    .progress-bar {
+        background-color: $theme-color;
+        height: 2px;
+        margin: 2px;
+        border-radius: inherit;
+        overflow: visible;
+    }
+    .progress-value {
+        position: absolute;
+        top: -34px;
+        right: 0;
+    }
+    &.style2 {
+        &:not(:last-child) {
+            margin-bottom: 32px;
+        }
+        .progress {
+            background-color: $smoke-color2;
+        }
+    }
+}

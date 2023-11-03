@@ -1,0 +1,57 @@
+.themeholy-pagination {
+    margin-bottom: 30px;
+
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    li {
+        display: inline-block;
+        margin: 0 3px;
+        list-style-type: none;
+
+        &:last-child {
+            margin-right: 0;
+        }
+
+        &:first-child {
+            margin-left: 0;
+        }
+    }
+
+    span,
+    a {
+        display: inline-block;
+        text-align: center;
+        position: relative;
+        border: none;
+        color: $theme-color;
+        background-color: $smoke-color;
+        width: 46px;
+        height: 46px;
+        line-height: 46px;
+        z-index: 1;
+        font-size: 18px;
+        font-weight: 500;
+        border-radius: 0;
+
+        &.active,
+        &:hover {
+            color: $white-color;
+            background-color: $theme-color;
+        }
+    }
+}
+
+@include sm {
+    .themeholy-pagination {
+        span,
+        a {
+            width: 40px;
+            height: 40px;
+            line-height: 40px;
+            font-size: 14px;
+        }
+    }
+}

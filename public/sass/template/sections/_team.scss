@@ -1,0 +1,285 @@
+/* Team global ---------------------------------- */
+.themeholy-team {
+    position: relative;
+    .team-img {
+        position: relative;
+        overflow: hidden;
+        img {
+            width: 100%;
+            transition: 0.4s ease-in-out;
+        }
+    }
+    .team-desig {
+        font-size: 14px;
+        font-weight: 500;
+        display: block;
+        margin-bottom: -0.5em;
+        transition: 0.4s ease-in-out;
+        color: $theme-color;
+    }
+    .themeholy-social {
+        transition: 0.4s ease-in-out;
+        a {
+            --icon-size: 40px;
+            background-color: $white-color;
+            color: $theme-color;
+            &:hover {
+                background-color: $theme-color;
+                color: $white-color;
+            }
+        }
+    }
+    .box-title {
+        margin-bottom: 0;
+    }
+    &:hover {
+        .team-img {
+            img {
+                transform: scale(1.08);
+            }
+        }
+    }
+}
+/* Team Card ---------------------------------- */
+.team-card {
+    text-align: center;
+    position: relative;
+    .team-content {
+        background-color: $white-color;
+        max-width: calc(100% - 20px);
+        margin: -27px auto 0 auto;
+        height: 80px;
+        display: flex;
+        position: relative;
+        z-index: 3;
+        box-shadow: 0px 6px 15px rgba(192, 192, 192, 0.15);
+        .media-body {
+            padding: 21px 10px;
+        }
+        .share-btn {
+            height: 100%;
+            background-color: $theme-color;
+            color: $white-color;
+            width: 50px;
+            text-align: center;
+            font-size: 24px;
+            line-height: 80px;
+            cursor: pointer;
+        }
+    }
+    .themeholy-social {
+        position: absolute;
+        bottom: 30px;
+        left: 15px;
+        width: 40px;
+        transform: scaleY(0);
+        transform-origin: bottom center;
+        a {
+            background-color: $white-color;
+            color: $theme-color;
+            margin-right: 0;
+            margin-bottom: 10px;
+            &:hover {
+                background-color: $theme-color;
+                color: $white-color;
+            }
+        }
+    }
+    .box-title {
+        font-size: 20px;
+        line-height: 1.3;
+    }
+    .team-img {
+        transition: 0.4s ease-in-out;
+        border: 1px solid transparent;
+    }
+    &:hover {
+        .team-img {
+            border-color: $theme-color;
+        }
+        .themeholy-social {
+            transform: scaleY(1);
+        }
+    }
+}
+
+@include xs {
+    .team-card {
+        max-width: 320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Team Box ---------------------------------- */
+.team-box {
+    position: relative;
+    background-color: $white-color;
+    text-align: center;
+    transition: 0.4s ease-in-out;
+    .team-img {
+        border-top: 5px solid $theme-color;
+        .share-btn {
+            height: 46px;
+            width: 46px;
+            line-height: 46px;
+            background-color: $theme-color;
+            color: $white-color;
+            text-align: center;
+            font-size: 24px;
+            cursor: pointer;
+            position: absolute;
+            top: 0px;
+            left: 35px;
+        }
+    }
+    .team-content {
+        padding: 27px 10px;
+        position: relative;
+        z-index: 2;
+    }
+    .team-desig {
+        font-size: 16px;
+    }
+    .themeholy-social {
+        position: absolute;
+        top: 55px;
+        left: 35px;
+        width: 46px;
+        transform: scaleY(0);
+        transform-origin: top center;
+        a {
+            background-color: $white-color;
+            color: $theme-color;
+            margin-right: 0;
+            margin-bottom: 10px;
+            &:hover {
+                background-color: $theme-color;
+                color: $white-color;
+            }
+        }
+    }
+    &:hover {
+        .themeholy-social {
+            transform: scaleY(1);
+        }
+    }
+}
+
+@include sm {
+    .team-box {
+        max-width: 400px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Team Grid ---------------------------------- */
+.team-grid {
+    background-color: $white-color;
+    box-shadow: 0px 0px 15px rgba(8, 14, 28, 0.06);
+    text-align: center;
+    padding: 20px 20px 0 20px;
+    .team-img {
+        margin-bottom: 20px;
+    }
+    .team-desig {
+        margin-bottom: 0;
+        font-size: 16px;
+    }
+    .box-title {
+        font-weight: 600;
+    }
+    .social-links {
+        padding: 12px 0;
+        border-top: 1px solid $border-color;
+        margin: 10px 10px 0 10px;
+        a {
+            font-size: 16px;
+            color: $title-color;
+            &:hover {
+                color: $theme-color;
+            }
+        }
+    }
+}
+
+@include xs {
+    .team-grid {
+        max-width: 340px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Team Details ---------------------------------- */
+@media (min-width: 1300px) {
+    .about-card {
+        margin-left: 50px;
+    }
+}
+.about-card {
+    &_title {
+        margin-top: -0.28em;
+        margin-bottom: 7px;
+    }
+    &_desig {
+        color: $theme-color;
+        margin-bottom: 24px;
+    }
+    &_text {
+        margin-bottom: 23px;
+        margin-top: 33px;
+    }
+}
+
+.team-info {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        li {
+            margin-bottom: 17px;
+            display: flex;
+            align-items: center;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            b {
+                width: 100%;
+                max-width: 200px;
+                font-weight: 600;
+                font-size: 18px;
+                color: $title-color;
+            }
+            span,
+            a {
+                color: $body-color;
+            }
+            a:hover {
+                color: $theme-color;
+            }
+        }
+    }
+}
+
+@include xs {
+    .team-info ul li b {
+        max-width: 140px;
+    }
+}
+
+.team-contact-form {
+    padding: 50px;
+    background-color: $smoke-color;
+    textarea {
+        height: 120px;
+    }
+    .form-title {
+        margin-top: -0.3em;
+        margin-bottom: 25px;
+    }
+    @include xs {
+        padding: 40px 20px;
+    }
+}
