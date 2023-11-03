@@ -1,6 +1,5 @@
 import { Inter } from 'next/font/google'
-
-
+import Script from 'next/script'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -27,6 +26,16 @@ export default function RootLayout({ children }) {
       <body>
         {children}
       </body>
+        
+        <Script type="text/javascript" src="js/vendor/jquery-3.6.0.min.js"/>
+        <Script type="text/javascript" src="js/slick.min.js"/>
+        <Script type="text/javascript" src="js/bootstrap.min.js"/>
+        <Script type="text/javascript" src="js/jquery.magnific-popup.min.js"/>
+        <Script type="text/javascript" src="js/jquery.counterup.min.js"/>
+        <Script type="text/javascript" src="js/jquery-ui.min.js"/>
+        <Script type="text/javascript" src="js/imagesloaded.pkgd.min.js"/>
+        <Script type="text/javascript" src="js/isotope.pkgd.min.js"/>
+        <Script type="text/javascript" src="js/main.js"/>
     </html>
   )
 }

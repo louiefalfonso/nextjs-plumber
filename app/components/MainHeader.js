@@ -1,50 +1,11 @@
 import React from 'react'
+import HeaderTop from './HeaderTop'
 
 export default function MainHeader() {
   return (
     <>
     <header className="themeholy-header header-layout1 header-layout2">
-        <div className="header-top">
-            <div className="container themeholy-container">
-            <div className="row justify-content-center justify-content-lg-between align-items-center gy-2">
-                <div className="col-auto d-none d-lg-block">
-                <p className="header-notice">
-                    Welcome to <span className="text-theme">Plumer</span> Plumbing &amp;
-                    Repairing Service.
-                </p>
-                </div>
-                <div className="col-auto">
-                <div className="header-links">
-                    <ul>
-                    <li>
-                        <i className="fal fa-clock" />
-                        Work Time: Mon - Fri 09AM - 6PM
-                    </li>
-                    <li>
-                        <div className="social-links">
-                        <a href="https://www.facebook.com/">
-                            <i className="fab fa-facebook-f" />
-                        </a>
-                        <a href="https://www.twitter.com/">
-                            <i className="fab fa-twitter" />
-                        </a>
-                        <a href="https://www.linkedin.com/">
-                            <i className="fab fa-linkedin-in" />
-                        </a>
-                        <a href="https://www.instagram.com/">
-                            <i className="fab fa-instagram" />
-                        </a>
-                        <a href="https://www.youtube.com/">
-                            <i className="fab fa-youtube" />
-                        </a>
-                        </div>
-                    </li>
-                    </ul>
-                </div>
-                </div>
-            </div>
-            </div>
-        </div>
+        <HeaderTop/>
         <div className="sticky-wrapper">
             {/* Main Menu Area */}
             <div className="menu-area">
@@ -223,19 +184,7 @@ export default function MainHeader() {
                         </button>
                         </div>
                         <div className="col-auto d-none d-xl-block">
-                        <div className="header-button">
-                            <button type="button" className="icon-btn searchBoxToggler">
-                            <i className="far fa-search" />
-                            </button>
-                            <button type="button" className="icon-btn sideMenuToggler">
-                            <i className="far fa-shopping-cart" />
-                            <span className="badge">5</span>
-                            </button>
-                            <a href="wishlist.html" className="icon-btn">
-                            <i className="far fa-heart" />
-                            <span className="badge">4</span>
-                            </a>
-                        </div>
+                        
                         </div>
                     </div>
                     </div>
