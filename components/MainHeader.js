@@ -14,7 +14,7 @@ export default function MainHeader() {
                 <div className="col-auto">
                     <div className="header-logo">
                     <a href="home-plumbing-service.html">
-                        <img src="img/logo.svg" alt="Plumer" />
+                        <img src="img/logo.webp" alt="Plumer" />
                     </a>
                     </div>
                 </div>

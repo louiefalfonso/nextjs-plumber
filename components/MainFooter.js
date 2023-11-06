@@ -10,7 +10,7 @@ export default function MainFooter() {
                 <div className="widget footer-widget">
                 <div className="about-logo">
                     <a href="home-plumbing-service.html">
-                    <img src="img/logo-small.svg" alt="Plumer" />
+                    <img src="img/logo-white-1.svg" alt="Plumer" />
                     </a>
                 </div>
                 <div className="themeholy-widget-schedule">

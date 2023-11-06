@@ -4936,6 +4936,7 @@ ol.wp-block-rss {
 .header-layout1 .header-logo {
   position: relative;
   z-index: 2;
+  width: 200px;
 }
 
 .header-layout1 .themeholy-menu-toggle {
