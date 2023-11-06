@@ -470,7 +470,7 @@ h6 {
 
 @media (min-width: 1300px) {
   .row {
-    --bs-gutter-x: 30px;
+    --bs-gutter-x: 80px;
   }
 }
 
@@ -4774,7 +4774,7 @@ ol.wp-block-rss {
 
 @media (max-width: 1500px) {
   .main-menu > ul > li {
-    margin: 0 15px;
+    margin: 0 30px;
   }
 }
 
@@ -5174,7 +5174,7 @@ ol.wp-block-rss {
 /* Extra large devices */
 @media (max-width: 1500px) {
   .header-layout2 .logo-bg {
-    width: 21%;
+    width: 24%;
   }
 }
 

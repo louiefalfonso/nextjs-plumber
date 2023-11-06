@@ -47,7 +47,7 @@ export default function MainHeader() {
                                 href="mailto:info@plumer.com"
                                 className="header-info_link"
                             >
-                                info@plumer.com
+                                service@pristineplumb.com
                             </a>
                             </div>
                         </div>
@@ -65,7 +65,7 @@ export default function MainHeader() {
                                 href="https://www.google.com/maps"
                                 className="header-info_link"
                             >
-                                Santa Rosa, United States
+                                Englewood, CO, US, 80110
                             </a>
                             </div>
                         </div>
