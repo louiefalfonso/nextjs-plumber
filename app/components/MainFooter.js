@@ -160,7 +160,7 @@ export default function MainFooter() {
                 <div className="col-lg-6">
                 <p className="copyright-text">
                     Copyright <i className="fal fa-copyright" /> 2023{" "}
-                    <a href="home-plumbing-service.html">Plumer</a>. All Rights
+                    Pristine Plumbing & Repairing Service. All Rights
                     Reserved.
                 </p>
                 </div>

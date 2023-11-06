@@ -8,7 +8,7 @@ export default function HeaderTop() {
         <div className="row justify-content-center justify-content-lg-between align-items-center gy-2">
                 <div className="col-auto d-none d-lg-block">
                 <p className="header-notice">
-                    Welcome to Plumbing &amp; Repairing Service.
+                    Welcome to Pristine Plumbing &amp; Repairing Service.
                 </p>
                 </div>
                 <div className="col-auto">

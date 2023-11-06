@@ -30,8 +30,9 @@ export default function MainHeader() {
                             <span className="header-info_label">
                                 Call Us Any Time:
                             </span>
+                            
                             <a href="tel:+16326543654" className="header-info_link">
-                                +163-2654-3654
+                               (720) 414-5942
                             </a>
                             </div>
                         </div>
