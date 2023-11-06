@@ -1,66 +1,5 @@
 @charset "UTF-8";
-/*
-01. Theme Base
-    1.1. Mixin
-    1.2. Function
-    1.3. Variable
-    1.4. Typography
-    1.5. Extend
-    1.7. Wordpress Default
-02. Reset
-    2.1. Container
-    2.2. Grid
-    2.3. Input
-    2.4. Slick Slider
-    2.5. Mobile Menu
-03. Utilities
-    3.1. Preloader
-    3.2. Buttons
-    3.3. Titles
-    3.4. Common
-    3.6. Font
-    3.7. Background
-    3.8. Text Color
-    3.9. Overlay
-    3.10. Animation
-    
-04. Template Style
-    4.1. Widget
-    4.2. Header
-    4.3. Footer
-    4.4. Breadcumb
-    4.5. Pagination
-    4.6. Blog
-    4.7. Comments
-    4.8. Hero Area
-    4.9. Error    
-    4.00. Popup Search
-    4.00. Popup Side Menu
-    4.00. Wocommerce
-    4.00. Products
-    4.00. Cart
-    4.00. Checkout
-    4.00. Wishlist
-    4.00. Contact
-    4.00. About
-    4.00. Team
-    4.00. Testimonial
-    4.00. Counter
-    4.00. Blog
-    4.00. Brand
-    4.00. Simple Sections
-    4.00. Why
-    4.00. Faq
-    4.00. Service
-    4.00. Pricing
-    4.00. Project
-    4.00. Skill
-    4.00. Process
-    4.00. Feature
 
-05. Spacing
-
-*/
 /*=================================
     CSS Index End
 ==================================*/
@@ -10757,7 +10696,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .img-box1 .ripple-shape {
-  --border-color: #E83A15;
+  --border-color: #008fd5;
   --circle-size: 54px;
   --opacity-original: 1;
   --opacity-animate: 0;
