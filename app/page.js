@@ -1,7 +1,5 @@
 import AboutArea from '@/components/AboutArea'
 import HeroAreas from '../components/HeroAreas'
-import MainFooter from '../components/MainFooter'
-import MainHeader from '../components/MainHeader'
 import ScrollToTop from '../components/ScrollToTop'
 import ServiceArea from '@/components/ServiceArea'
 import ContactArea from '@/components/ContactArea'
@@ -13,7 +11,6 @@ import TeamArea from '@/components/TeamArea'
 export default function Home() {
   return (
     <>
-    <MainHeader/>
     <HeroAreas/>
     <AboutArea/>
     <ServiceArea/>
@@ -21,8 +18,7 @@ export default function Home() {
     <FeatureArea/>
     <CounterArea/>
     <TeamArea/>
-    <ScrollToTop/>
-    <MainFooter/>
+    
     </>
   )
 }
