@@ -87,7 +87,7 @@ img:not([draggable]),
 embed,
 object,
 video {
-  max-width: 80%;
+  
   height: auto;
 }
 
@@ -1082,7 +1082,7 @@ textarea.is-invalid {
   background-color: var(--smoke-color2);
 }
 
-.themeholy-menu-wrapper .mobile-logo svg {
+.themeholy-menu-wrapper .mobile-logo img {
   max-width: 185px;
 }
 
