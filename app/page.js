@@ -6,6 +6,8 @@ import ContactArea from '@/components/ContactArea'
 import FeatureArea from '@/components/FeatureArea'
 import CounterArea from '@/components/CounterArea'
 import TeamArea from '@/components/TeamArea'
+import FaqArea from '@/components/FaqArea'
+import ProcessArea from '@/components/ProcessArea'
 
 
 export default function Home() {
@@ -18,7 +20,8 @@ export default function Home() {
     <FeatureArea/>
     <CounterArea/>
     <TeamArea/>
-    
+    <FaqArea/>
+    <ProcessArea/>
     </>
   )
 }
