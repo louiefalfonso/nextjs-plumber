@@ -8,6 +8,7 @@ import CounterArea from '@/components/CounterArea'
 import TeamArea from '@/components/TeamArea'
 import FaqArea from '@/components/FaqArea'
 import ProcessArea from '@/components/ProcessArea'
+import ProjectArea from '@/components/ProjectArea'
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
     <TeamArea/>
     <FaqArea/>
     <ProcessArea/>
+    <ProjectArea/>
     </>
   )
 }
