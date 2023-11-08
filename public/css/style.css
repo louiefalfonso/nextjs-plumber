@@ -1757,12 +1757,14 @@ textarea.is-invalid {
 
 .sub-title.call {
   font-size: 30px;
+  color: var(--white-color);
   /* Medium devices */
 }
 
 @media (max-width: 991px) {
   .sub-title.call {
     font-size: 22px;
+    color: var(--white-color);
   }
 }
 
