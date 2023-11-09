@@ -4,6 +4,7 @@ import CounterArea from '@/components/CounterArea'
 import FeaturesArea from '@/components/FeaturesArea'
 import ProcessArea from '@/components/ProcessArea'
 import TeamArea from '@/components/TeamArea'
+import WorkingProcess from '@/components/WorkingProcess'
 import React from 'react'
 
 export default function page() {
@@ -23,9 +24,7 @@ export default function page() {
     <FeaturesArea/>
     <AboutArea/>
     <CounterArea/>
-    <ProcessArea/>
-    <ContactArea/>
-    <TeamArea/>
+    <WorkingProcess/>
     </>
   )
 }
