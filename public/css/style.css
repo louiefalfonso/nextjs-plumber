@@ -5921,7 +5921,7 @@ ol.wp-block-rss {
 .breadcumb-menu li:last-child {
   padding-right: 0;
   margin-right: 0;
-  color: var(--theme-color);
+  color: var(--white-color);
 }
 
 .breadcumb-menu li:last-child:after {
