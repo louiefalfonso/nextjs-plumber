@@ -4,6 +4,7 @@ import CounterArea from '@/components/CounterArea'
 import FeaturesArea from '@/components/FeaturesArea'
 import ProcessArea from '@/components/ProcessArea'
 import TeamArea from '@/components/TeamArea'
+import Teams from '@/components/Teams'
 import WorkingProcess from '@/components/WorkingProcess'
 import React from 'react'
 
@@ -25,6 +26,7 @@ export default function page() {
     <AboutArea/>
     <CounterArea/>
     <WorkingProcess/>
+    <Teams/>
     </>
   )
 }
