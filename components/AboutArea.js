@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function AboutArea() {
   return (
@@ -61,9 +62,7 @@ export default function AboutArea() {
                     </li>
                 </ul>
                 </div>
-                <a href="about.html" className="themeholy-btn">
-                About More
-                </a>
+                <Link href="/aboutus" passHref className="themeholy-btn">About More</Link>
             </div>
             </div>
         </div>

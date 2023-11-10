@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function HeroAreas() {
   return (
@@ -51,14 +52,8 @@ export default function HeroAreas() {
                     data-ani="slideinleft"
                     data-ani-delay="0.9s"
                 >
-                    <a href="about.html" className="themeholy-btn style3">
-                    DISCOBER MORE
-                    <i className="fa-regular fa-arrow-right ms-2" />
-                    </a>
-                    <a href="contact.html" className="themeholy-btn style2">
-                    CONTACT US
-                    <i className="fa-regular fa-arrow-right ms-2" />
-                    </a>
+                    <Link href="/aboutus" passHref className="themeholy-btn style3">DISCOVER MORE <i className="fa-regular fa-arrow-right ms-2" /></Link>
+                    <Link href="/contactus" passHref className="themeholy-btn style2">CONTACT US <i className="fa-regular fa-arrow-right ms-2" /></Link>
                 </div>
                 </div>
             </div>
@@ -104,14 +99,8 @@ export default function HeroAreas() {
                     data-ani="slideinleft"
                     data-ani-delay="0.9s"
                 >
-                    <a href="about.html" className="themeholy-btn style3">
-                    DISCOBER MORE
-                    <i className="fa-regular fa-arrow-right ms-2" />
-                    </a>
-                    <a href="contact.html" className="themeholy-btn style2">
-                    CONTACT US
-                    <i className="fa-regular fa-arrow-right ms-2" />
-                    </a>
+                    <Link href="/aboutus" passHref className="themeholy-btn style3">DISCOVER MORE <i className="fa-regular fa-arrow-right ms-2" /></Link>
+                    <Link href="/contactus" passHref className="themeholy-btn style2">CONTACT US <i className="fa-regular fa-arrow-right ms-2" /></Link>
                 </div>
                 </div>
             </div>
@@ -157,14 +146,8 @@ export default function HeroAreas() {
                     data-ani="slideinleft"
                     data-ani-delay="0.9s"
                 >
-                    <a href="about.html" className="themeholy-btn style3">
-                    DISCOBER MORE
-                    <i className="fa-regular fa-arrow-right ms-2" />
-                    </a>
-                    <a href="contact.html" className="themeholy-btn style2">
-                    CONTACT US
-                    <i className="fa-regular fa-arrow-right ms-2" />
-                    </a>
+                    <Link href="/aboutus" passHref className="themeholy-btn style3">DISCOVER MORE <i className="fa-regular fa-arrow-right ms-2" /></Link>
+                    <Link href="/contactus" passHref className="themeholy-btn style2">CONTACT US <i className="fa-regular fa-arrow-right ms-2" /></Link>
                 </div>
                 </div>
             </div>
