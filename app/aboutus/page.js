@@ -1,10 +1,12 @@
 import AboutArea from '@/components/AboutArea'
 import ContactArea from '@/components/ContactArea'
 import CounterArea from '@/components/CounterArea'
+import CtaArea from '@/components/CtaArea'
 import FeaturesArea from '@/components/FeaturesArea'
 import ProcessArea from '@/components/ProcessArea'
 import TeamArea from '@/components/TeamArea'
 import Teams from '@/components/Teams'
+import TestimonialArea from '@/components/TestimonialArea'
 import WorkingProcess from '@/components/WorkingProcess'
 import React from 'react'
 
@@ -27,6 +29,8 @@ export default function page() {
     <CounterArea/>
     <WorkingProcess/>
     <Teams/>
+    <CtaArea/>
+    <TestimonialArea/>
     </>
   )
 }

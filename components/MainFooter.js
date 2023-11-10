@@ -10,7 +10,7 @@ export default function MainFooter() {
                 <div className="widget footer-widget">
                 <div className="about-logo">
                     <a href="home-plumbing-service.html">
-                    <img src="img/logo-white-1.svg" alt="Plumer" />
+                    <img src="../img/logo-white-1.svg" alt="Plumer" />
                     </a>
                 </div>
                 <div className="themeholy-widget-schedule">
@@ -187,10 +187,10 @@ export default function MainFooter() {
             </div>
         </div>
         <div className="shape-mockup footer-shape1" data-bottom="73px" data-left="3%">
-            <img src="img/shape/man_shape_1.png" alt="shape" />
+            <img src="../img/shape/man_shape_1.png" alt="shape" />
         </div>
         <div className="shape-mockup" data-bottom="0%" data-right="0%">
-            <img src="img/shape/footer_shape_2.png" alt="shape" />
+            <img src="../img/shape/footer_shape_2.png" alt="shape" />
         </div>
     </footer>
     </>

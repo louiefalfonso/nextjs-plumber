@@ -10,7 +10,7 @@ export default function MobileMenu() {
             </button>
             <div className="mobile-logo">
             <a href="home-plumbing-service.html">
-                <img src="img/logo.webp" alt="Plumer" />
+                <img src="../img/logo.webp" alt="Plumer" />
             </a>
             </div>
             <div className="themeholy-mobile-menu">
