@@ -1,5 +1,7 @@
 import React from 'react'
+import Link from 'next/link'
 import HeaderTop from './HeaderTop'
+import Navigation from './Navigation'
 
 export default function MainHeader() {
   return (
@@ -13,9 +15,9 @@ export default function MainHeader() {
                 <div className="row align-items-center justify-content-between">
                 <div className="col-auto">
                     <div className="header-logo">
-                    <a href="home-plumbing-service.html">
-                        <img src="../img/logo.webp" alt="Plumer" />
-                    </a>
+                        <Link href="/" passHref>
+                            <img src="../img/logo.webp" alt="Plumer" />
+                        </Link>
                     </div>
                 </div>
                 <div className="col">
@@ -72,111 +74,16 @@ export default function MainHeader() {
                         </div>
                         </div>
                         <div className="col-auto d-none d-xxl-block">
-                        <a href="contact.html" className="themeholy-btn style4">
-                            Get a Quote
-                        </a>
+                            <Link href="/contactus" passHref className="themeholy-btn style4">
+                                Get a Quote
+                            </Link>
                         </div>
                     </div>
                     </div>
                     <div className="menu-wrap">
                     <div className="row">
                         <div className="col text-end text-xl-start">
-                        <nav className="main-menu d-none d-lg-inline-block">
-                            <ul>
-                            <li className="menu-item-has-children">
-                                <a href="home-plumbing-service.html">Home</a>
-                                <ul className="sub-menu">
-                                <li>
-                                    <a href="home-plumbing-service.html">
-                                    Plumbing Service
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="home-air-conditioner.html">
-                                    Air Conditioner
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="home-electrician.html">Home Electrician</a>
-                                </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="about.html">About Us</a>
-                            </li>
-                            <li className="menu-item-has-children">
-                                <a href="#">Services</a>
-                                <ul className="sub-menu">
-                                <li>
-                                    <a href="service.html">Services</a>
-                                </li>
-                                <li>
-                                    <a href="service-details.html">Services Details</a>
-                                </li>
-                                </ul>
-                            </li>
-                            <li className="menu-item-has-children">
-                                <a href="#">Pages</a>
-                                <ul className="sub-menu">
-                                <li className="menu-item-has-children">
-                                    <a href="#">Shop</a>
-                                    <ul className="sub-menu">
-                                    <li>
-                                        <a href="shop.html">Shop</a>
-                                    </li>
-                                    <li>
-                                        <a href="shop-details.html">Shop Details</a>
-                                    </li>
-                                    <li>
-                                        <a href="cart.html">Cart Page</a>
-                                    </li>
-                                    <li>
-                                        <a href="checkout.html">Checkout</a>
-                                    </li>
-                                    <li>
-                                        <a href="wishlist.html">Wishlist</a>
-                                    </li>
-                                    </ul>
-                                </li>
-                                <li>
-                                    <a href="team.html">Team</a>
-                                </li>
-                                <li>
-                                    <a href="team-details.html">Team Details</a>
-                                </li>
-                                <li>
-                                    <a href="project.html">Project</a>
-                                </li>
-                                <li>
-                                    <a href="project-details.html">Project Details</a>
-                                </li>
-                                <li>
-                                    <a href="pricing.html">Pricing</a>
-                                </li>
-                                <li>
-                                    <a href="faq.html">Faq Page</a>
-                                </li>
-                                <li>
-                                    <a href="error.html">Error Page</a>
-                                </li>
-                                </ul>
-                            </li>
-                            <li className="menu-item-has-children">
-                                <a href="#">Blog</a>
-                                <ul className="sub-menu">
-                                <li>
-                                    <a href="blog.html">Blog</a>
-                                </li>
-                                <li>
-                                    <a href="blog-details.html">Blog Details</a>
-                                </li>
-                                </ul>
-                            </li>
-                            <li>
-                                <a href="contact.html">Contact</a>
-                            </li>
-                            </ul>
-                        </nav>
+                        <Navigation/>
                         <button
                             type="button"
                             className="themeholy-menu-toggle d-block d-lg-none"
@@ -185,7 +92,6 @@ export default function MainHeader() {
                         </button>
                         </div>
                         <div className="col-auto d-none d-xl-block">
-                        
                         </div>
                     </div>
                     </div>

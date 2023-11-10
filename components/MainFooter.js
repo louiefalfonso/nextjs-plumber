@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function MainFooter() {
   return (
@@ -9,9 +10,9 @@ export default function MainFooter() {
             <div className="footer-left">
                 <div className="widget footer-widget">
                 <div className="about-logo">
-                    <a href="home-plumbing-service.html">
-                    <img src="../img/logo-white-1.svg" alt="Plumer" />
-                    </a>
+                    <Link href="/" passHref>
+                        <img src="../img/logo-white-1.svg" alt="Plumer" />
+                    </Link>
                 </div>
                 <div className="themeholy-widget-schedule">
                     <p className="text">
@@ -65,21 +66,12 @@ export default function MainFooter() {
                         <h3 className="widget_title">Quick Links</h3>
                         <div className="menu-all-pages-container">
                         <ul className="menu">
-                            <li>
-                            <a href="about.html">About Us</a>
-                            </li>
-                            <li>
-                            <a href="project.html">Portfolio</a>
-                            </li>
-                            <li>
-                            <a href="faq.html">Help &amp; FAQs</a>
-                            </li>
-                            <li>
-                            <a href="blog.html">Blog</a>
-                            </li>
-                            <li>
-                            <a href="contact.html">Contact Us</a>
-                            </li>
+                            <li><Link href="/aboutus" passHref>About Us</Link></li>
+                            <li><Link href="/services" passHref className="menu-item-has-children" >Services</Link></li>
+                            <li><Link href="/projects" passHref>Projects</Link></li>
+                            <li><Link href="/teams" passHref>Teams</Link></li>
+                            <li><Link href="/faq" passHref>FAQ</Link></li>
+                            <li><Link href="/contactus" passHref>Contact Us</Link></li>
                         </ul>
                         </div>
                     </div>

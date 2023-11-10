@@ -13,11 +13,11 @@ import React from 'react'
 export default function page() {
   return (
     <>
-    <div class="breadcumb-wrapper " data-bg-src="img/bg/breadcumb-bg.jpg">
-        <div class="container">
-            <div class="breadcumb-content">
-                <h1 class="breadcumb-title">About Us</h1>
-                <ul class="breadcumb-menu">
+    <div className="breadcumb-wrapper " data-bg-src="img/bg/breadcumb-bg.jpg">
+        <div className="container">
+            <div className="breadcumb-content">
+                <h1 className="breadcumb-title">About Us</h1>
+                <ul className="breadcumb-menu">
                     <li><a href="home-plumbing-service.html">Home</a></li>
                     <li>About Us</li>
                 </ul>
