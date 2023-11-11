@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function ServiceArea() {
   return (
@@ -27,9 +28,7 @@ export default function ServiceArea() {
             </div>
             <div className="col-auto">
                 <div className="sec-btn">
-                <a href="service.html" className="themeholy-btn">
-                    Explore All Services
-                </a>
+                <Link href="/services" passHref className="themeholy-btn">Explore All Services</Link>
                 </div>
             </div>
             </div>{" "}

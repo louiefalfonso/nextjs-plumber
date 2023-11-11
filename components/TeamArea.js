@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function TeamArea() {
   return (
@@ -33,18 +34,10 @@ export default function TeamArea() {
             <div className="team-img">
               <img src="img/team/team_1_1.jpg" alt="Team" />
               <div className="themeholy-social">
-                <a target="_blank" href="https://facebook.com/">
-                  <i className="fab fa-facebook-f" />
-                </a>
-                <a target="_blank" href="https://twitter.com/">
-                  <i className="fab fa-twitter" />
-                </a>
-                <a target="_blank" href="https://instagram.com/">
-                  <i className="fab fa-instagram" />
-                </a>
-                <a target="_blank" href="https://linkedin.com/">
-                  <i className="fab fa-linkedin-in" />
-                </a>
+                <Link href="https://facebook.com/" passHref><i className="fab fa-facebook-f" /></Link>
+                <Link href="https://twitter.com/" passHref><i className="fab fa-twitter" /></Link>
+                <Link href="https://instagram.com/" passHref><i className="fab fa-instagram" /></Link>
+                <Link href="https://linkedin.com/" passHref><i className="fab fa-linkedin-in" /></Link>
               </div>
             </div>
             <div className="team-content">
@@ -66,18 +59,10 @@ export default function TeamArea() {
             <div className="team-img">
               <img src="img/team/team_1_2.jpg" alt="Team" />
               <div className="themeholy-social">
-                <a target="_blank" href="https://facebook.com/">
-                  <i className="fab fa-facebook-f" />
-                </a>
-                <a target="_blank" href="https://twitter.com/">
-                  <i className="fab fa-twitter" />
-                </a>
-                <a target="_blank" href="https://instagram.com/">
-                  <i className="fab fa-instagram" />
-                </a>
-                <a target="_blank" href="https://linkedin.com/">
-                  <i className="fab fa-linkedin-in" />
-                </a>
+                <Link href="https://facebook.com/" passHref><i className="fab fa-facebook-f" /></Link>
+                <Link href="https://twitter.com/" passHref><i className="fab fa-twitter" /></Link>
+                <Link href="https://instagram.com/" passHref><i className="fab fa-instagram" /></Link>
+                <Link href="https://linkedin.com/" passHref><i className="fab fa-linkedin-in" /></Link>
               </div>
             </div>
             <div className="team-content">
@@ -99,18 +84,10 @@ export default function TeamArea() {
             <div className="team-img">
               <img src="img/team/team_1_3.jpg" alt="Team" />
               <div className="themeholy-social">
-                <a target="_blank" href="https://facebook.com/">
-                  <i className="fab fa-facebook-f" />
-                </a>
-                <a target="_blank" href="https://twitter.com/">
-                  <i className="fab fa-twitter" />
-                </a>
-                <a target="_blank" href="https://instagram.com/">
-                  <i className="fab fa-instagram" />
-                </a>
-                <a target="_blank" href="https://linkedin.com/">
-                  <i className="fab fa-linkedin-in" />
-                </a>
+                <Link href="https://facebook.com/" passHref><i className="fab fa-facebook-f" /></Link>
+                <Link href="https://twitter.com/" passHref><i className="fab fa-twitter" /></Link>
+                <Link href="https://instagram.com/" passHref><i className="fab fa-instagram" /></Link>
+                <Link href="https://linkedin.com/" passHref><i className="fab fa-linkedin-in" /></Link>
               </div>
             </div>
             <div className="team-content">
@@ -132,18 +109,10 @@ export default function TeamArea() {
             <div className="team-img">
               <img src="img/team/team_1_4.jpg" alt="Team" />
               <div className="themeholy-social">
-                <a target="_blank" href="https://facebook.com/">
-                  <i className="fab fa-facebook-f" />
-                </a>
-                <a target="_blank" href="https://twitter.com/">
-                  <i className="fab fa-twitter" />
-                </a>
-                <a target="_blank" href="https://instagram.com/">
-                  <i className="fab fa-instagram" />
-                </a>
-                <a target="_blank" href="https://linkedin.com/">
-                  <i className="fab fa-linkedin-in" />
-                </a>
+                <Link href="https://facebook.com/" passHref><i className="fab fa-facebook-f" /></Link>
+                <Link href="https://twitter.com/" passHref><i className="fab fa-twitter" /></Link>
+                <Link href="https://instagram.com/" passHref><i className="fab fa-instagram" /></Link>
+                <Link href="https://linkedin.com/" passHref><i className="fab fa-linkedin-in" /></Link>
               </div>
             </div>
             <div className="team-content">
@@ -165,18 +134,10 @@ export default function TeamArea() {
             <div className="team-img">
               <img src="img/team/team_1_5.jpg" alt="Team" />
               <div className="themeholy-social">
-                <a target="_blank" href="https://facebook.com/">
-                  <i className="fab fa-facebook-f" />
-                </a>
-                <a target="_blank" href="https://twitter.com/">
-                  <i className="fab fa-twitter" />
-                </a>
-                <a target="_blank" href="https://instagram.com/">
-                  <i className="fab fa-instagram" />
-                </a>
-                <a target="_blank" href="https://linkedin.com/">
-                  <i className="fab fa-linkedin-in" />
-                </a>
+                <Link href="https://facebook.com/" passHref><i className="fab fa-facebook-f" /></Link>
+                <Link href="https://twitter.com/" passHref><i className="fab fa-twitter" /></Link>
+                <Link href="https://instagram.com/" passHref><i className="fab fa-instagram" /></Link>
+                <Link href="https://linkedin.com/" passHref><i className="fab fa-linkedin-in" /></Link>
               </div>
             </div>
             <div className="team-content">

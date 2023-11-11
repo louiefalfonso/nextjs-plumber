@@ -1,14 +1,12 @@
 import AboutArea from '@/components/AboutArea'
-import ContactArea from '@/components/ContactArea'
 import CounterArea from '@/components/CounterArea'
 import CtaArea from '@/components/CtaArea'
 import FeaturesArea from '@/components/FeaturesArea'
-import ProcessArea from '@/components/ProcessArea'
-import TeamArea from '@/components/TeamArea'
 import Teams from '@/components/Teams'
 import TestimonialArea from '@/components/TestimonialArea'
 import WorkingProcess from '@/components/WorkingProcess'
 import React from 'react'
+import Link from 'next/link'
 
 export default function page() {
   return (
@@ -18,7 +16,7 @@ export default function page() {
             <div className="breadcumb-content">
                 <h1 className="breadcumb-title">About Us</h1>
                 <ul className="breadcumb-menu">
-                    <li><a href="home-plumbing-service.html">Home</a></li>
+                    <li><Link href="/" passHref>Home</Link></li>
                     <li>About Us</li>
                 </ul>
             </div>
