@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function CtaArea() {
   return (
@@ -17,12 +18,8 @@ export default function CtaArea() {
                 </h2>
                 </div>
                 <div className="btn-group justify-content-center">
-                <a href="contact.html" className="themeholy-btn style3">
-                    Book A Online
-                </a>
-                <a href="contact.html" className="themeholy-btn style2">
-                    Contact Us
-                </a>
+                    <Link href="/contactus" passHref className="themeholy-btn style3">Book A Online</Link>
+                    <Link href="/contactus" passHref className="themeholy-btn style2">Contact Us</Link>
                 </div>
             </div>
             </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function FaqArea() {
   return (
@@ -24,9 +25,7 @@ export default function FaqArea() {
                 understand what's happening and how we plan to fix the issue. You can
                 trust that you're getting expert service
                 </p>
-                <a href="faq.html" className="themeholy-btn">
-                Ask Questions
-                </a>
+                <Link href="/faq" passHref className="themeholy-btn">Ask Questions</Link>
             </div>
             <div className="col-xl-6 col-lg-10 mt-35 mt-xl-0">
                 <div className="accordion-1 accordion" id="faqAccordion">
