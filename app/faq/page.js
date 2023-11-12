@@ -1,6 +1,5 @@
 import React from 'react'
-import Link
- from 'next/link'
+import Link from 'next/link'
 import FullFaqArea from '@/components/FullFaqArea'
 import CtaArea from '@/components/CtaArea'
 export default function page() {
