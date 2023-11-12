@@ -12,7 +12,7 @@ export default function ContactInfoArea() {
                     <img src="img/icon/contact_2_1.svg" alt="icon" />
                 </div>
                 <span className="contact-feature_subtitle">OUR OFFICE LOCATION</span>
-                <h3 className="box-title">Santa Rosa, United States</h3>
+                <h3 className="box-title">Englewood, CO, US, 80110</h3>
                 </div>
             </div>
             <div className="col-lg-4">
@@ -34,7 +34,7 @@ export default function ContactInfoArea() {
                 <div className="contact-feature_content">
                     <span className="contact-feature_subtitle">Email Us On</span>
                     <h3 className="box-title">
-                    <a href="mailto:info@plumer.com">info@plumer.com</a>
+                    <a href="mailto:service@pristineplumb.com">service@pristineplumb.com</a>
                     </h3>
                 </div>
                 </div>

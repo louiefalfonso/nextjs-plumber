@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import ContactInfoArea from '@/components/ContactInfoArea'
 import MapContactArea from '@/components/MapContactArea'
+import CounterArea from '@/components/CounterArea'
 
 export default function page() {
   return (
@@ -19,6 +20,7 @@ export default function page() {
     </div>
     <ContactInfoArea/>
     <MapContactArea/>
+    <CounterArea/>
     </>
   )
 }
