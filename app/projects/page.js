@@ -1,5 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
+import ProjectList from '@/components/ProjectList'
+import CtaArea from '@/components/CtaArea'
 
 export default function page() {
   return (
@@ -15,6 +17,8 @@ export default function page() {
             </div>
         </div>
     </div>
+    <ProjectList/>
+    <CtaArea/>
     </>
   )
 }
