@@ -10,7 +10,7 @@ export default function Navigation() {
             <li><Link href="/aboutus" passHref>About Us</Link></li>
             <li><Link href="/services" passHref className="menu-item-has-children" >Services</Link>
                 <ul className="sub-menu">
-                    <li><Link href="/services/plumbing" passHref>Drain Plumbing</Link></li>
+                    <li><Link href="/services/bathroom-plumbing" passHref>Bathroom Plumbing</Link></li>
                 </ul>
             </li>
             <li><Link href="/projects" passHref>Projects</Link></li>
