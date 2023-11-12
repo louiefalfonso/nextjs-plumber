@@ -8,11 +8,11 @@ export default function page() {
     <div className="breadcumb-wrapper " data-bg-src="../img/bg/breadcumb-bg.jpg">
         <div className="container">
             <div className="breadcumb-content">
-                <h1 className="breadcumb-title">Bathroom Plumbing</h1>
+                <h1 className="breadcumb-title">Drain Plumbing</h1>
                 <ul className="breadcumb-menu">
                     <li><Link href="/" passHref>Home</Link></li>
                     <li><Link href="/services" passHref>Services</Link></li>
-                    <li>Bathroom Plumbing</li>
+                    <li>Drain Plumbing</li>
                 </ul>
             </div>
         </div>
