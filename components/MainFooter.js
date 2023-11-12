@@ -81,21 +81,12 @@ export default function MainFooter() {
                         <h3 className="widget_title">Popular Services</h3>
                         <div className="menu-all-pages-container">
                         <ul className="menu">
-                            <li>
-                            <a href="service-details.html">Home Maintenance</a>
-                            </li>
-                            <li>
-                            <a href="service-details.html">General Plumbing</a>
-                            </li>
-                            <li>
-                            <a href="service-details.html">Carpentry</a>
-                            </li>
-                            <li>
-                            <a href="service-details.html">Drainage Services</a>
-                            </li>
-                            <li>
-                            <a href="service-details.html">Plumbing Design</a>
-                            </li>
+                            <li><Link href="/services/bathroom-plumbing" passHref>Bathroom Plumbing</Link></li>
+                            <li><Link href="/services/drain-plumbing" passHref>Drain Plumbing</Link></li>
+                            <li><Link href="/services/waterline-repair" passHref>Water Line Repair</Link></li>
+                            <li><Link href="/services/kitchen-plumbing" passHref>Kitchen Plumbing</Link></li>
+                            <li><Link href="/services/gasline-services" passHref>Gas Line Services</Link></li>
+                            <li><Link href="/services/pipe-cleaning" passHref>Pipe Cleaning</Link></li>
                         </ul>
                         </div>
                     </div>
