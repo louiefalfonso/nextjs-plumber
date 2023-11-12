@@ -13433,7 +13433,7 @@ span.select2-selection.select2-selection--single:focus {
 }
 
 .service-block .themeholy-btn:before, .service-block .themeholy-btn:after {
-  background-color: var(--theme-color2);
+  background-color: var(--title-color);
 }
 
 .service-block:hover:before {

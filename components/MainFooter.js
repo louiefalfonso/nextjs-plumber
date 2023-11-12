@@ -109,7 +109,7 @@ export default function MainFooter() {
                             <i className="fas fa-location-dot" />
                             </div>
                             <p className="info-box_text">
-                            445 S E St unit 12, Santa Rosa CA 95404, United States
+                            Englewood, CO, US, 80110
                             </p>
                         </div>
                         <div className="info-box">
@@ -117,11 +117,8 @@ export default function MainFooter() {
                             <i className="fas fa-phone" />
                             </div>
                             <p className="info-box_text">
-                            <a href="tel:+16326543564" className="info-box_link">
-                                +(163)-2654-3564
-                            </a>
-                            <a href="tel:+16326545432" className="info-box_link">
-                                +(163)-2654-5432
+                            <a href="tel:(720) 414-5942" className="info-box_link">
+                                (720) 414-5942
                             </a>
                             </p>
                         </div>
@@ -131,10 +128,10 @@ export default function MainFooter() {
                             </div>
                             <p className="info-box_text">
                             <a
-                                href="mailto:help24/7@plumer.com"
+                                href="mailto:service@pristineplumb.com"
                                 className="info-box_link"
                             >
-                                help24/7@plumer.com
+                                service@pristineplumb.com
                             </a>
                             </p>
                         </div>

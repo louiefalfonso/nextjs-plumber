@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function ProjectArea() {
   return (
@@ -53,7 +54,7 @@ export default function ProjectArea() {
                     <div className="project-content">
                     <p className="project-subtitle">Kitchen</p>
                     <h3 className="box-title">
-                        <a href="project-details.html">Plumbing Diagnosis</a>
+                        <Link href="/projects" passHref>Plumbing Diagnosis</Link>
                     </h3>
                     </div>
                     <a
@@ -74,7 +75,7 @@ export default function ProjectArea() {
                     <div className="project-content">
                     <p className="project-subtitle">Kitchen</p>
                     <h3 className="box-title">
-                        <a href="project-details.html">Drain Plumbing</a>
+                        <Link href="/projects" passHref>Drain Plumbing</Link>
                     </h3>
                     </div>
                     <a
@@ -95,7 +96,7 @@ export default function ProjectArea() {
                     <div className="project-content">
                     <p className="project-subtitle">Kitchen</p>
                     <h3 className="box-title">
-                        <a href="project-details.html">Water Line Repair</a>
+                        <Link href="/projects" passHref>Water Line Repair</Link>
                     </h3>
                     </div>
                     <a
@@ -116,7 +117,7 @@ export default function ProjectArea() {
                     <div className="project-content">
                     <p className="project-subtitle">Bathroom</p>
                     <h3 className="box-title">
-                        <a href="project-details.html">Bathroom Plumbing</a>
+                        <Link href="/projects" passHref>Water Line Repair</Link>
                     </h3>
                     </div>
                     <a
