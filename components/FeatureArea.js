@@ -9,13 +9,13 @@ export default function FeatureArea() {
             <div className="col-xl-6 mb-40 mb-xl-0">
                 <div className="img-box2">
                 <div className="img1">
-                    <img src="img/normal/why_1_1.jpg" alt="Why" />
+                    <img src="img/normal/why_1_1.webp" alt="Why" />
                     <div className="shape1">
-                    <img src="img/normal/why_1_3.png" alt="Why" />
+                    <img src="img/normal/why_1_3.webp" alt="Why" />
                     </div>
                 </div>
                 <div className="img2 themeholy-video">
-                    <img src="img/normal/why_1_2.jpg" alt="Why" />
+                    <img src="img/normal/why_1_2.webp" alt="Why" />
                     <a
                     href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
                     className="play-btn popup-video"

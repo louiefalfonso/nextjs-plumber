@@ -17,7 +17,7 @@ export default function ProcessArea() {
                 <div className="col-md-6 col-xl-4 process-card-wrap">
                 <div className="process-card">
                     <div className="process-card_img">
-                    <img src="img/normal/process_card_1.jpg" alt="Image" />
+                    <img src="img/normal/process_card_1.webp" alt="Image" />
                     <div className="process-card_icon">
                         <img src="img/icon/process_card_1.svg" alt="icon" />
                     </div>
@@ -32,7 +32,7 @@ export default function ProcessArea() {
                 <div className="col-md-6 col-xl-4 process-card-wrap">
                 <div className="process-card">
                     <div className="process-card_img">
-                    <img src="img/normal/process_card_2.jpg" alt="Image" />
+                    <img src="img/normal/process_card_2.webp" alt="Image" />
                     <div className="process-card_icon">
                         <img src="img/icon/process_card_2.svg" alt="icon" />
                     </div>
@@ -47,7 +47,7 @@ export default function ProcessArea() {
                 <div className="col-md-6 col-xl-4 process-card-wrap">
                 <div className="process-card">
                     <div className="process-card_img">
-                    <img src="img/normal/process_card_3.jpg" alt="Image" />
+                    <img src="img/normal/process_card_3.webp" alt="Image" />
                     <div className="process-card_icon">
                         <img src="img/icon/process_card_3.svg" alt="icon" />
                     </div>

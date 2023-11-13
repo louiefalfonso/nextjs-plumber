@@ -49,16 +49,14 @@ export default function ServiceArea() {
                 <div className="service-card_content">
                     <div className="shape1" />
                     <h3 className="box-title">
-                    <a href="service-details.html">Basement Plumbing</a>
+                    Basement Plumbing
                     </h3>
                     <p className="service-card_text">
                     Basement plumbing is an essential part of any home. You are
                     looking to finish your basement or just need repairs to existing
                     plumbing service.
                     </p>
-                    <a href="service-details.html" className="themeholy-btn">
-                    Read More
-                    </a>
+                    <Link href="/services" passHref className="themeholy-btn"> Read More</Link>
                     <div className="ripple-shape">
                     <span className="ripple-1" />
                     <span className="ripple-2" />
@@ -78,16 +76,14 @@ export default function ServiceArea() {
                 <div className="service-card_content">
                     <div className="shape1" />
                     <h3 className="box-title">
-                    <a href="service-details.html">Drain Plumbing</a>
+                    Drain Plumbing
                     </h3>
                     <p className="service-card_text">
                     Drain plumbing is a critical component of any homes plumbing
                     system. When drains become clogged or damaged, it can cause a host
                     of problems.
                     </p>
-                    <a href="service-details.html" className="themeholy-btn">
-                    Read More
-                    </a>
+                    <Link href="/services" passHref className="themeholy-btn"> Read More</Link>
                     <div className="ripple-shape">
                     <span className="ripple-1" />
                     <span className="ripple-2" />
@@ -114,9 +110,7 @@ export default function ServiceArea() {
                     your home and property. If you suspect a problem with your water
                     line.
                     </p>
-                    <a href="service-details.html" className="themeholy-btn">
-                    Read More
-                    </a>
+                    <Link href="/services" passHref className="themeholy-btn"> Read More</Link>
                     <div className="ripple-shape">
                     <span className="ripple-1" />
                     <span className="ripple-2" />
@@ -136,16 +130,14 @@ export default function ServiceArea() {
                 <div className="service-card_content">
                     <div className="shape1" />
                     <h3 className="box-title">
-                    <a href="service-details.html">Bathroom Plumbing</a>
+                    Bathroom Plumbing
                     </h3>
                     <p className="service-card_text">
                     Bathroom plumbing is a critical part of any homes plumbing system.
                     From sinks and toilets to showers and bathtubs, your bathroom
                     plumbing.
                     </p>
-                    <a href="service-details.html" className="themeholy-btn">
-                    Read More
-                    </a>
+                    <Link href="/services" passHref className="themeholy-btn"> Read More</Link>
                     <div className="ripple-shape">
                     <span className="ripple-1" />
                     <span className="ripple-2" />
