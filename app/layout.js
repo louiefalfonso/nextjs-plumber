@@ -19,8 +19,8 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
         <link rel="preconnect" href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700&display=swap"/>
-        <link rel="preconnect" href="../css/bootstrap.min.css"/>
-        <link rel="preconnect" href="../css/fontawesome.min.css"/>
+        <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="../css/fontawesome.min.css"/>
         <link rel="stylesheet" href="../css/magnific-popup.min.css"/>
         <link rel="stylesheet" href="../css/slick.min.css"/>
         <link rel="stylesheet" href="../css/style.css"/>
