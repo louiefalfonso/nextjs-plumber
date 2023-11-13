@@ -28,7 +28,7 @@ export default function ServiceArea() {
             </div>
             <div className="col-auto">
                 <div className="sec-btn">
-                <Link href="/services" passHref className="themeholy-btn">Explore All Services</Link>
+                <Link href="/services" passHref className="themeholy-btn" alt="Pristine Plumbing & Repairing Service">Explore All Services</Link>
                 </div>
             </div>
             </div>{" "}
@@ -56,7 +56,7 @@ export default function ServiceArea() {
                     looking to finish your basement or just need repairs to existing
                     plumbing service.
                     </p>
-                    <Link href="/services" passHref className="themeholy-btn"> Read More</Link>
+                    <Link href="/services" passHref className="themeholy-btn" alt="Pristine Plumbing & Repairing Service"> Read More</Link>
                     <div className="ripple-shape">
                     <span className="ripple-1" />
                     <span className="ripple-2" />
@@ -83,7 +83,7 @@ export default function ServiceArea() {
                     system. When drains become clogged or damaged, it can cause a host
                     of problems.
                     </p>
-                    <Link href="/services" passHref className="themeholy-btn"> Read More</Link>
+                    <Link href="/services" passHref className="themeholy-btn" alt="Pristine Plumbing & Repairing Service"> Read More</Link>
                     <div className="ripple-shape">
                     <span className="ripple-1" />
                     <span className="ripple-2" />
@@ -110,7 +110,7 @@ export default function ServiceArea() {
                     your home and property. If you suspect a problem with your water
                     line.
                     </p>
-                    <Link href="/services" passHref className="themeholy-btn"> Read More</Link>
+                    <Link href="/services" passHref className="themeholy-btn" alt="Pristine Plumbing & Repairing Service"> Read More</Link>
                     <div className="ripple-shape">
                     <span className="ripple-1" />
                     <span className="ripple-2" />
@@ -137,7 +137,7 @@ export default function ServiceArea() {
                     From sinks and toilets to showers and bathtubs, your bathroom
                     plumbing.
                     </p>
-                    <Link href="/services" passHref className="themeholy-btn"> Read More</Link>
+                    <Link href="/services" passHref className="themeholy-btn" alt="Pristine Plumbing & Repairing Service"> Read More</Link>
                     <div className="ripple-shape">
                     <span className="ripple-1" />
                     <span className="ripple-2" />

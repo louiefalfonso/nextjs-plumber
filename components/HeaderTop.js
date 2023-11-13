@@ -20,19 +20,19 @@ export default function HeaderTop() {
                     </li>
                     <li>
                         <div className="social-links">
-                        <a href="https://www.facebook.com/">
+                        <a href="https://www.facebook.com/" alt="Facebook">
                             <i className="fab fa-facebook-f" />
                         </a>
-                        <a href="https://www.twitter.com/">
+                        <a href="https://www.twitter.com/" alt="Twitter">
                             <i className="fab fa-twitter" />
                         </a>
-                        <a href="https://www.linkedin.com/">
+                        <a href="https://www.linkedin.com/" alt="Linkedin">
                             <i className="fab fa-linkedin-in" />
                         </a>
-                        <a href="https://www.instagram.com/">
+                        <a href="https://www.instagram.com/" alt="Instagram">
                             <i className="fab fa-instagram" />
                         </a>
-                        <a href="https://www.youtube.com/">
+                        <a href="https://www.youtube.com/" alt="Youtube">
                             <i className="fab fa-youtube" />
                         </a>
                         </div>

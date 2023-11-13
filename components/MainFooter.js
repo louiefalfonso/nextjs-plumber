@@ -146,21 +146,22 @@ export default function MainFooter() {
                 </div>
                 <div className="col-lg-auto text-end d-none d-lg-block">
                 <div className="social-links">
-                    <a href="https://www.facebook.com/">
-                    <i className="fab fa-facebook-f" />
-                    </a>
-                    <a href="https://www.twitter.com/">
-                    <i className="fab fa-twitter" />
-                    </a>
-                    <a href="https://www.linkedin.com/">
-                    <i className="fab fa-linkedin-in" />
-                    </a>
-                    <a href="https://www.instagram.com/">
-                    <i className="fab fa-instagram" />
-                    </a>
-                    <a href="https://www.youtube.com/">
-                    <i className="fab fa-youtube" />
-                    </a>
+
+                    <a href="https://www.facebook.com/" alt="Facebook">
+                            <i className="fab fa-facebook-f" />
+                        </a>
+                        <a href="https://www.twitter.com/" alt="Twitter">
+                            <i className="fab fa-twitter" />
+                        </a>
+                        <a href="https://www.linkedin.com/" alt="Linkedin">
+                            <i className="fab fa-linkedin-in" />
+                        </a>
+                        <a href="https://www.instagram.com/" alt="Instagram">
+                            <i className="fab fa-instagram" />
+                        </a>
+                        <a href="https://www.youtube.com/" alt="Youtube">
+                            <i className="fab fa-youtube" />
+                        </a>
                 </div>
                 </div>
             </div>
