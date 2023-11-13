@@ -16,7 +16,7 @@ export default function HeroAreas() {
                 className="themeholy-hero-bg"
                 data-bg-src="img/hero/hero_bg_1_1.webp"
             >
-                <img src="img/hero/hero_overlay_1.png" alt="Overlay" />
+                <img src="img/hero/hero_overlay_1.webp" alt="Overlay" />
             </div>
             <div className="container">
                 <div className="hero-style1">
@@ -63,7 +63,7 @@ export default function HeroAreas() {
                 className="themeholy-hero-bg"
                 data-bg-src="img/hero/hero_bg_1_2.webp"
             >
-                <img src="img/hero/hero_overlay_1.png" alt="Overlay" />
+                <img src="img/hero/hero_overlay_1.webp" alt="Overlay" />
             </div>
             <div className="container">
                 <div className="hero-style1">
@@ -110,7 +110,7 @@ export default function HeroAreas() {
                 className="themeholy-hero-bg"
                 data-bg-src="img/hero/hero_bg_1_3.webp"
             >
-                <img src="img/hero/hero_overlay_1.png" alt="Overlay" />
+                <img src="img/hero/hero_overlay_1.webp" alt="Overlay" />
             </div>
             <div className="container">
                 <div className="hero-style1">
