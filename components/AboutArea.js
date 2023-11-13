@@ -10,7 +10,7 @@ export default function AboutArea() {
                 <div className="col-xl-6 mb-30 mb-xl-0">
                     <div className="img-box1">
                     <div className="img1">
-                        <img src="/img/normal/about_1_1.jpg" alt="About" />
+                        <img src="/img/normal/about_1_1.webp" alt="About" />
                         <div className="ripple-shape">
                         <span className="ripple-1" />
                         <span className="ripple-2" />
@@ -21,7 +21,7 @@ export default function AboutArea() {
                         </div>
                     </div>
                     <div className="img2">
-                        <img src="img/normal/about_1_2.jpg" alt="Image" />
+                        <img src="img/normal/about_1_2.webp" alt="Image" />
                     </div>
                     <div className="year-counter">
                         <div className="year-counter_number">50</div>

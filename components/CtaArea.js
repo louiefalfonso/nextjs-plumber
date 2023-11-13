@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function CtaArea() {
   return (
     <>
-    <section className="space" data-bg-src="img/bg/cta_bg_1.jpg">
+    <section className="space" data-bg-src="img/bg/cta_bg_1.webp">
         <div className="container z-index-common">
             <div className="row justify-content-center">
             <div className="col-md-9 text-center">
