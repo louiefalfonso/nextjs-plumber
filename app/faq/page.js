@@ -5,7 +5,7 @@ import CtaArea from '@/components/CtaArea'
 export default function page() {
   return (
     <>
-    <div className="breadcumb-wrapper " data-bg-src="img/bg/breadcumb-bg.jpg">
+    <div className="breadcumb-wrapper " data-bg-src="img/bg/breadcumb-bg.webp">
         <div className="container">
             <div className="breadcumb-content">
                 <h1 className="breadcumb-title">Frequently Asked Questions</h1>

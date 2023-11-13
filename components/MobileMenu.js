@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function MobileMenu() {
   return (
@@ -9,100 +10,28 @@ export default function MobileMenu() {
             <i className="fal fa-times" />
             </button>
             <div className="mobile-logo">
-            <a href="home-plumbing-service.html">
-                <img src="../img/logo.webp" alt="Plumer" />
-            </a>
+                <Link href="/" passHref>
+                    <img src="../img/logo.webp" alt="Plumer" />
+                </Link>
             </div>
             <div className="themeholy-mobile-menu">
             <ul>
-                <li className="menu-item-has-children">
-                <a href="home-plumbing-service.html">Home</a>
-                <ul className="sub-menu">
-                    <li>
-                    <a href="home-plumbing-service.html">Plumbing Service</a>
-                    </li>
-                    <li>
-                    <a href="home-air-conditioner.html">Air Conditioner</a>
-                    </li>
-                    <li>
-                    <a href="home-electrician.html">Home Electrician</a>
-                    </li>
-                </ul>
-                </li>
-                <li>
-                <a href="about.html">About Us</a>
-                </li>
-                <li className="menu-item-has-children">
-                <a href="#">Services</a>
-                <ul className="sub-menu">
-                    <li>
-                    <a href="service.html">Services</a>
-                    </li>
-                    <li>
-                    <a href="service-details.html">Services Details</a>
-                    </li>
-                </ul>
-                </li>
-                <li className="menu-item-has-children">
-                <a href="#">Pages</a>
-                <ul className="sub-menu">
-                    <li className="menu-item-has-children">
-                    <a href="#">Shop</a>
+                <li><Link href="/" passHref>Home</Link></li>
+                <li><Link href="/aboutus" passHref>About Us</Link></li>
+                <li><Link href="/services" passHref className="menu-item-has-children">Services</Link>
                     <ul className="sub-menu">
-                        <li>
-                        <a href="shop.html">Shop</a>
-                        </li>
-                        <li>
-                        <a href="shop-details.html">Shop Details</a>
-                        </li>
-                        <li>
-                        <a href="cart.html">Cart Page</a>
-                        </li>
-                        <li>
-                        <a href="checkout.html">Checkout</a>
-                        </li>
-                        <li>
-                        <a href="wishlist.html">Wishlist</a>
-                        </li>
+                        <li><Link href="/services/bathroom-plumbing" passHref>Bathroom Plumbing</Link></li>
+                        <li><Link href="/services/drain-plumbing" passHref>Drain Plumbing</Link></li>
+                        <li><Link href="/services/waterline-repair" passHref>Water Line Repair</Link></li>
+                        <li><Link href="/services/kitchen-plumbing" passHref>Kitchen Plumbing</Link></li>
+                        <li><Link href="/services/gasline-services" passHref>Gas Line Services</Link></li>
+                        <li><Link href="/services/pipe-cleaning" passHref>Pipe Cleaning</Link></li>
                     </ul>
-                    </li>
-                    <li>
-                    <a href="team.html">Team</a>
-                    </li>
-                    <li>
-                    <a href="team-details.html">Team Details</a>
-                    </li>
-                    <li>
-                    <a href="project.html">Project</a>
-                    </li>
-                    <li>
-                    <a href="project-details.html">Project Details</a>
-                    </li>
-                    <li>
-                    <a href="pricing.html">Pricing</a>
-                    </li>
-                    <li>
-                    <a href="faq.html">Faq Page</a>
-                    </li>
-                    <li>
-                    <a href="error.html">Error Page</a>
-                    </li>
-                </ul>
                 </li>
-                <li className="menu-item-has-children">
-                <a href="#">Blog</a>
-                <ul className="sub-menu">
-                    <li>
-                    <a href="blog.html">Blog</a>
-                    </li>
-                    <li>
-                    <a href="blog-details.html">Blog Details</a>
-                    </li>
-                </ul>
-                </li>
-                <li>
-                <a href="contact.html">Contact</a>
-                </li>
+                <li><Link href="/projects" passHref>Projects</Link></li>
+                <li><Link href="/teams" passHref>Teams</Link></li>
+                <li><Link href="/faq" passHref>FAQ</Link></li>
+                <li><Link href="/contactus" passHref>Contact Us</Link></li>
             </ul>
             </div>
         </div>
