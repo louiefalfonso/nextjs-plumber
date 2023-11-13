@@ -23,7 +23,8 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="../css/fontawesome.min.css"/>
         <link rel="stylesheet" href="../css/magnific-popup.min.css"/>
         <link rel="stylesheet" href="../css/slick.min.css"/>
-        <link rel="stylesheet" href="../css/style.css"/>
+        <link rel="stylesheet" href="../css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'"
+        />
       </head>
       
       <body>
