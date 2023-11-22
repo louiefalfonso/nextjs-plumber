@@ -40,7 +40,7 @@ export default function Teams() {
                     </div>
                     <div className="media-body">
                     <h3 className="box-title">
-                        <a href="team-details.html">Rokie Royals</a>
+                        Rokie Royals
                     </h3>
                     <span className="team-desig">Plumber</span>
                     </div>
@@ -65,7 +65,7 @@ export default function Teams() {
                     </div>
                     <div className="media-body">
                     <h3 className="box-title">
-                        <a href="team-details.html">Jesica Sinthiya</a>
+                        Jesica Sinthiya
                     </h3>
                     <span className="team-desig">Electrician</span>
                     </div>
@@ -90,7 +90,7 @@ export default function Teams() {
                     </div>
                     <div className="media-body">
                     <h3 className="box-title">
-                        <a href="team-details.html">Alex Michel</a>
+                        Alex Michel
                     </h3>
                     <span className="team-desig">Carpenter</span>
                     </div>
@@ -115,7 +115,7 @@ export default function Teams() {
                     </div>
                     <div className="media-body">
                     <h3 className="box-title">
-                        <a href="team-details.html">Henry Joseph</a>
+                        Henry Joseph
                     </h3>
                     <span className="team-desig">Plumber</span>
                     </div>
@@ -140,7 +140,7 @@ export default function Teams() {
                     </div>
                     <div className="media-body">
                     <h3 className="box-title">
-                        <a href="team-details.html">Sanjida Carlose</a>
+                        Sanjida Carlose
                     </h3>
                     <span className="team-desig">Plumber</span>
                     </div>
