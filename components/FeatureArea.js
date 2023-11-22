@@ -17,7 +17,7 @@ export default function FeatureArea() {
                 <div className="img2 themeholy-video">
                     <img src="img/normal/why_1_2.webp" alt="Why" />
                     <a
-                    href="https://www.youtube.com/watch?v=_sI_Ps7JSEk"
+                    href="https://youtu.be/ewlO3A97mqU?feature=shared"
                     className="play-btn popup-video"
                     >
                     <i className="fas fa-play" />

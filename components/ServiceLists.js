@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function ServiceLists() {
   return (
@@ -18,15 +19,13 @@ export default function ServiceLists() {
                         <img src="img/service/service_block_1.jpg" alt="Image" />
                     </div>
                     <h3 className="box-title">
-                        <a href="service-details.html">Basement Plumbing</a>
+                        Basement Plumbing
                     </h3>
                     <p className="service-block_text">
                         Basement plumbing is an essential part of any home. You are looking
                         to finish your basement or just need repairs.
                     </p>
-                    <a href="service-details.html" className="themeholy-btn">
-                        Read More
-                    </a>
+                    <Link href="/services/drain-plumbing" passHref className="themeholy-btn">Read More</Link>
                     <div className="ripple-shape">
                         <span className="ripple-1" />
                         <span className="ripple-2" />
@@ -49,15 +48,13 @@ export default function ServiceLists() {
                         <img src="img/service/service_block_2.jpg" alt="Image" />
                     </div>
                     <h3 className="box-title">
-                        <a href="service-details.html">Drain Plumbing</a>
+                        Drain Plumbing
                     </h3>
                     <p className="service-block_text">
                         Drain plumbing is a critical component of any homes plumbing system.
                         When drains become clogged or damaged.
                     </p>
-                    <a href="service-details.html" className="themeholy-btn">
-                        Read More
-                    </a>
+                    <Link href="/services/drain-plumbing" passHref className="themeholy-btn">Read More</Link>     
                     <div className="ripple-shape">
                         <span className="ripple-1" />
                         <span className="ripple-2" />
@@ -80,15 +77,13 @@ export default function ServiceLists() {
                         <img src="img/service/service_block_3.jpg" alt="Image" />
                     </div>
                     <h3 className="box-title">
-                        <a href="service-details.html">Water Line Repair</a>
+                        Water Line Repair
                     </h3>
                     <p className="service-block_text">
                         A broken or leaking water line can cause significant damage to your
                         home and property. If you suspect a problem.
                     </p>
-                    <a href="service-details.html" className="themeholy-btn">
-                        Read More
-                    </a>
+                    <Link href="/services/waterline-repair" passHref className="themeholy-btn">Read More</Link>
                     <div className="ripple-shape">
                         <span className="ripple-1" />
                         <span className="ripple-2" />
@@ -111,15 +106,13 @@ export default function ServiceLists() {
                         <img src="img/service/service_block_4.jpg" alt="Image" />
                     </div>
                     <h3 className="box-title">
-                        <a href="service-details.html">Kitchen Plumbing</a>
+                        Kitchen Plumbing
                     </h3>
                     <p className="service-block_text">
                         Some common kitchen plumbing issues include clogged drains, leaky
                         faucets, malfunctioning garbage disposals.
                     </p>
-                    <a href="service-details.html" className="themeholy-btn">
-                        Read More
-                    </a>
+                    <Link href="/services/kitchen-plumbing" passHref className="themeholy-btn">Read More</Link>
                     <div className="ripple-shape">
                         <span className="ripple-1" />
                         <span className="ripple-2" />
@@ -142,15 +135,13 @@ export default function ServiceLists() {
                         <img src="img/service/service_block_5.jpg" alt="Image" />
                     </div>
                     <h3 className="box-title">
-                        <a href="service-details.html">Gas Line Services</a>
+                        Gas Line Services
                     </h3>
                     <p className="service-block_text">
                         Gas lines are used to supply natural gas or propane to appliances
                         such as stoves, ovens, water heaters, and furnaces..
                     </p>
-                    <a href="service-details.html" className="themeholy-btn">
-                        Read More
-                    </a>
+                    <Link href="/services/gasline-services" passHref className="themeholy-btn">Read More</Link>
                     <div className="ripple-shape">
                         <span className="ripple-1" />
                         <span className="ripple-2" />
@@ -173,15 +164,13 @@ export default function ServiceLists() {
                         <img src="img/service/service_block_6.jpg" alt="Image" />
                     </div>
                     <h3 className="box-title">
-                        <a href="service-details.html">Bathroom Services</a>
+                        Bathroom Services
                     </h3>
                     <p className="service-block_text">
                         Bathroom plumbing is a critical part of any homes plumbing system.
                         From sinks and toilets to showers and bathtubs.
                     </p>
-                    <a href="service-details.html" className="themeholy-btn">
-                        Read More
-                    </a>
+                    <Link href="/services/bathroom-plumbing" passHref className="themeholy-btn">Read More</Link>
                     <div className="ripple-shape">
                         <span className="ripple-1" />
                         <span className="ripple-2" />
