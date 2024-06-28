@@ -1,32 +1,35 @@
-import AboutArea from '@/components/AboutArea'
-import HeroAreas from '../components/HeroAreas'
-import ServiceArea from '@/components/ServiceArea'
-import ContactArea from '@/components/ContactArea'
-import FeatureArea from '@/components/FeatureArea'
-import CounterArea from '@/components/CounterArea'
-import TeamArea from '@/components/TeamArea'
-import FaqArea from '@/components/FaqArea'
-import ProcessArea from '@/components/ProcessArea'
-import ProjectArea from '@/components/ProjectArea'
-import TestimonialArea from '@/components/TestimonialArea'
-import CtaArea from '@/components/CtaArea'
+import AboutArea from '@/components/sections/AboutArea'
+import HeroAreas from '../components/sections/HeroAreas'
+import ServiceArea from '@/components/sections/ServiceArea'
+import ContactArea from '@/components/sections/ContactArea'
+import FeatureArea from '@/components/sections/FeatureArea'
+import CounterArea from '@/components/sections/CounterArea'
+import TeamArea from '@/components/sections/TeamArea'
+import FaqArea from '@/components/sections/FaqArea'
+import ProcessArea from '@/components/sections/ProcessArea'
+import ProjectArea from '@/components/sections/ProjectArea'
+import TestimonialArea from '@/components/sections/TestimonialArea'
+import CtaArea from '@/components/sections/CtaArea'
+import MainLayout from '@/components/layouts/MainLayout'
 
 
 export default function Home() {
   return (
     <>
-    <HeroAreas/>
-    <AboutArea/>
-    <ServiceArea/>
-    <ContactArea/>
-    <FeatureArea/>
-    <CounterArea/>
-    <TeamArea/>
-    <FaqArea/>
-    <ProcessArea/>
-    <ProjectArea/>
-    <TestimonialArea/>
-    <CtaArea/>
+      <MainLayout>
+        <HeroAreas />
+        <AboutArea />
+        <ServiceArea />
+        <ContactArea />
+        <FeatureArea />
+        <CounterArea />
+        <TeamArea />
+        <FaqArea />
+        <ProcessArea />
+        <ProjectArea />
+        <TestimonialArea />
+        <CtaArea />
+      </MainLayout>
     </>
-  )
+  );
 }

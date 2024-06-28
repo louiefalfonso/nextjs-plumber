@@ -1,26 +1,19 @@
 import React from 'react'
-import Link from 'next/link'
-import ContactInfoArea from '@/components/ContactInfoArea'
-import MapContactArea from '@/components/MapContactArea'
-import CounterArea from '@/components/CounterArea'
+import ContactInfoArea from '@/components/sections/ContactInfoArea'
+import MapContactArea from '@/components/sections/MapContactArea'
+import CounterArea from '@/components/sections/CounterArea'
+import MainLayout from '@/components/layouts/MainLayout'
+import Breadcrumbs from '@/components/layouts/Breadcrumbs'
 
 export default function page() {
   return (
     <>
-    <div className="breadcumb-wrapper " data-bg-src="img/bg/breadcumb-bg.webp">
-        <div className="container">
-            <div className="breadcumb-content">
-                <h1 className="breadcumb-title">Contact Us</h1>
-                <ul className="breadcumb-menu">
-                    <li><Link href="/" passHref>Home</Link></li>
-                    <li>Contact Us</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <ContactInfoArea/>
-    <MapContactArea/>
-    <CounterArea/>
+      <MainLayout>
+        <Breadcrumbs breadcrumbTitle="Contact Us" />
+        <ContactInfoArea />
+        <MapContactArea />
+        <CounterArea />
+      </MainLayout>
     </>
-  )
+  );
 }

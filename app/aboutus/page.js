@@ -1,34 +1,29 @@
-import AboutArea from '@/components/AboutArea'
-import CounterArea from '@/components/CounterArea'
-import CtaArea from '@/components/CtaArea'
-import FeaturesArea from '@/components/FeaturesArea'
-import Teams from '@/components/Teams'
-import TestimonialArea from '@/components/TestimonialArea'
-import WorkingProcess from '@/components/WorkingProcess'
-import React from 'react'
-import Link from 'next/link'
+import React from "react";
+import AboutArea from "@/components/sections/AboutArea";
+import CounterArea from "@/components/sections/CounterArea";
+import CtaArea from "@/components/sections/CtaArea";
+import FeaturesArea from "@/components/sections/FeaturesArea";
+import Teams from "@/components/sections/Teams";
+import TestimonialArea from "@/components/sections/TestimonialArea";
+import WorkingProcess from "@/components/sections/WorkingProcess";
+import MainLayout from "@/components/layouts/MainLayout";
+import Breadcrumbs from "@/components/layouts/Breadcrumbs";
 
-export default function page() {
+const page = () => {
   return (
     <>
-    <div className="breadcumb-wrapper " data-bg-src="img/bg/breadcumb-bg.webp">
-        <div className="container">
-            <div className="breadcumb-content">
-                <h1 className="breadcumb-title">About Us</h1>
-                <ul className="breadcumb-menu">
-                    <li><Link href="/" passHref>Home</Link></li>
-                    <li>About Us</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-    <FeaturesArea/>
-    <AboutArea/>
-    <CounterArea/>
-    <WorkingProcess/>
-    <Teams/>
-    <CtaArea/>
-    <TestimonialArea/>
+      <MainLayout>
+        <Breadcrumbs breadcrumbTitle="About Us" />
+        <FeaturesArea />
+        <AboutArea />
+        <CounterArea />
+        <WorkingProcess />
+        <Teams />
+        <CtaArea />
+        <TestimonialArea />
+      </MainLayout>
     </>
-  )
-}
+  );
+};
+
+export default page;

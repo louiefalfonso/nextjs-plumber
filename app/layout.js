@@ -1,11 +1,5 @@
-import MainFooter from '@/components/MainFooter'
-import MainHeader from '@/components/MainHeader'
-import MobileMenu from '@/components/MobileMenu'
-import ScrollToTop from '@/components/ScrollToTop'
 import { Inter } from 'next/font/google'
 import Script from 'next/script'
-
-
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -28,11 +22,7 @@ export default function RootLayout({ children }) {
       </head>
       
       <body>
-        <MainHeader/>
-        <MobileMenu/>
         {children}
-        <ScrollToTop/>
-        <MainFooter/>
       </body>
         
         <Script type="text/javascript" src="../js/vendor/jquery-3.6.0.min.js"/>
